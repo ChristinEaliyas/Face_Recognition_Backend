@@ -45,20 +45,6 @@ l_name = []
 club =[]
 
 
-# ab= db.execute(text('SELECT * FROM student_info')).fetchall()
-
-
-
-# b =  pickle.loads(data[0][13])
-
-
-# Open the file in write mode
-# with open(file_path, "w") as file:
-#     # Write each element of the list to a new line in the file
-#     for item in b:
-#         file.write("%s\n" % item)
-
-
 
 data= db.execute(text('SELECT * FROM student_info')).fetchall()
 data_len = len(data)
